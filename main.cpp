@@ -254,6 +254,11 @@ int main(int argc, char ** argv)
 
 	if(data.size() == 0)
 	{
+		data = "";
+	}
+
+	if(data.size() < 0)
+	{
 		cout << "Input Data: ";
 		cin >> data;
 	}
